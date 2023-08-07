@@ -1,0 +1,2 @@
+rm slurm_logs/*
+rm slurm_out/*

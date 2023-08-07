@@ -1,0 +1,8 @@
+slurm_logs/*
+*out
+picklesauce
+training_folders/*
+*__pycache__*
+utils/__pycache__
+notebooks/.ipynb_checkpoints
+utils/.ipynb_checkpoints

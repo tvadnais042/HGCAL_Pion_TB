@@ -1,0 +1,27 @@
+# The following lines contain list of all files, root ntuples and pickles.
+DATA:
+   NTUPLES:
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_405.root # ( 300 GeV)
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_455.root # ( 20 GeV )
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_457.root # ( 50 GeV )
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_466.root # ( 80 GeV )
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_477.root # ( 100 GeV)
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_494.root # ( 150 GeV)
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_601.root # ( 30 GeV )
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_653.root # ( 250 GeV)
+		- /home/rusack/shared/nTuples/hgcal_electrons/data/ntuple_664.root # ( 200 GeV)
+   PICKLES:
+
+FIXED ENERGY MC:
+   NTUPLES:
+      - /home/rusack/shared/nTuples/hgcal_electrons/mc/ntuple_sim_config22_pdgID11_beamMomentum*_listFTFP_BERT_EMN_0000_*.root #(beamMomentum -> True Energy)
+   PICKLES:
+      - 
+
+FLAT MC:
+   NTUEPLS:
+      - /home/rusack/shared/nTuples/hgcal_electrons/flat/ntuple_sim_config22_pdgID11_flatMomentum_vtxGaussSmr_FTFP_BERT_EMN_000*.root  # (flat samples)
+      - /home/rusack/shared/nTuples/hgcal_electrons/flat_gun_pos_corrected/ntuple_sim_config22_pdgID11_flatMomentum_vtxGaussSmr_FTFP_BERT_EMN_000*.root # (flat samples with corrected z position of the gun)
+
+   PICKLES:
+      
